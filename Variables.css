@@ -1,0 +1,29 @@
+:root{
+    --color1:#fffffe;
+    --color2:black;
+--fuente1: Arial;
+--especio1: 40px;
+}
+
+body{background-color: var(--color2)}
+
+h1, h2{
+    color:var(--color1);
+    font-family: var(--fuente1);
+    text-align: center;
+    padding: var(--especio1);
+}
+
+div{border: 1px solid var(--color1);
+width: 50%;
+margin: var(--especio1);
+border-radius: var(--especio1);
+}
+
+button{color:var(--color1);
+    font-family: var(--fuente1);
+}
+
+p{color:var(--color1);
+    font-family: var(--fuente1);
+}
